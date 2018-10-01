@@ -1,0 +1,59 @@
+/* comando para inserir comentário*/
+
+p{
+font-size:20pt;
+font-family:"Calibri";
+color:#FF0DFF;/* como não mais atributo não precisa do; */
+}
+
+/*Exemplo de seletor id# */
+#doi{
+font-size:20pt;
+font-family:"Bodini";
+color:#00B233;
+}
+
+#dera{
+font-size:13pt;
+font-family:"Verdana";
+color:#E82C0C;
+}
+
+#bora{
+font-size:17pt;
+font-family:"Aparajita";
+color:#CC4A14
+}
+
+#festejar{
+font-size:30;
+font-family:"Arial";
+color:#00FFDA;
+}
+#doi,#dera{
+font-size:20pt;
+font-family:"Bodini";
+color:#00b233;
+}
+
+#bora,#festejar{
+font-size:30;
+font-family:"Aparajita";
+color:#CC4A14;
+border:10px inset #FF5C40 /*primeiro valor para definir a espessura da borda,segundo valor para definir o tipo da borda e o
+ tercerio valor para inserir a cor */
+}
+
+/* exemplo de seletores usando calsse .*/
+.txt{
+	font-family:"Bondoni";
+	color:#1484CC;
+	font-weight:150, /*comando para inserir a quantidade  de negrito,lighter=negrito sem negrito */
+}
+body{
+	background-color:#01FF00;
+	background-image:url("peric.jpg");/* comando para inserir imagem fundo */
+	background-repeat:no-repeat;/*comando para não repetir a imagem */
+}
+
+ 
