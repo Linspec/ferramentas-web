@@ -1,0 +1,41 @@
+body{
+	background-image:url("p.gif"),url("peri.jpg"),url("peric.jpg"),url("passaralho.jpg");
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-position:center top,right bottom,right top,bottom left; /* para colocar horizontalmente:repeat-x,para colocar verticalmente:repeat-y */ 
+    background-color:#7A49FF;
+	opacity:75%; /* para escolher a opacidade da cor */ 
+	}
+	p{
+		margin-bottom:2000px;
+		
+	}
+	
+	a{
+		text-decoration:none;/* desenho(quadrado) que envolve o texto,o none e para remover a borda */
+		color:#FFF049;  /* cor do texto */
+		font-family:"Bodoni";
+		font-size:40px;
+		font-weight:bold;
+		background-color:#B2592D;
+		
+	}
+	a:hover{
+		
+		color:#2DB2A7;
+		background-color:#591165;
+	}
+	/* text-decoration- para decorar */
+	h1{
+		text-decoration:overline;/* para inserir uma linha em cima do texto */
+		text-transform:capitalize;/* para deixar a primeira letra em caixa alta */
+		}
+    h2{
+		text-decoration:line-through;/* para inserir um riscado */
+		text-transform:lowercase;/* para deixar a primeira letra em caixa baixa */
+		}
+	h3{
+		text-decoration:uperline;/* para sublinhar */
+		text-transform:upercase;/* para deixar todas as letras da palavra maiuscula */
+		}	
+		
