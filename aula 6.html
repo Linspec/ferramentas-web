@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Aula 7- Formulário</title>
+   <meta charset="UTF-8">
+  </head>
+ <body>
+<form method+"Post" action="Teste.php">
+<fieldset><legend> Cadastro do Cliente </legend>
+<!--placeholder-dica para usuário,fieldset-agrupamento de dados,legend-legenda,input type-para criar a caixa de entrada,
+maxlenghth-para definir a quantidade de caracteres,soze- para definir o tamanho da caixa do input,label-para criar um 
+rotulo ou etiqueta,serve para clicar no titulo e habilitar o cursor dentro da caixa de input,radio-para seleção simples uma coisa ou outra
+,checkbox-para seleção multipla,uma coisa e a outra-->
+<p><label for="n">Nome:<input type="text" id="n" placeholder="Nome Completo" maxlength=20 size=35></label></p>
+<p><label for="m">Endereço:<input type="text" id="m" placeholder="Endereço completo" maxlength=20 size=35></label></p>
+<p><label for="b">Cpf:<input type="text" id="b" placeholder="CPF" maxlength=20 size=35></label></p>
+<p><label for="i">Idade:<input type="number" id="i" placeholder="Idade" maxlength=20 size=35></label></p>
+
+<p><label for="s">Sexo:<label><input type="radio" name="sexo">Masculino</label>
+<label><input type="radio" name="sexo" id="s">Feminino</label></p>
+
+<p><label for="e">E-mail:<input type="email" name="email" id="e" placeholder="exemplo@e-mail.com" maxlength=40 size=35></label></p>
+<p><label for="p">Senha:<input type="password" name="senha" id="p" placeholder="6 digitos" maxlength=6 size=35></label></p>
+<p><label for="d">Data De nascimento:<input type="date" name="data"></label></p>
+<fieldset><legend>Area de intesse</legend>
+<p><label for="j"><input type="checkbox" id="j">Esporte</p>
+<p><label for="k"><input type="checkbox" id="k">Lazer</p>
+<p><label for="ç"><input type="checkbox" id="ç">Informática</p>
+<p><label for="p"><input type="checkbox" id="p">Dança</p>
+<p><label for="o"><input type="checkbox" id="o">Outros</p>
+
+
+</fieldset>
+</form>
+
+
+ </body>
+</html>
