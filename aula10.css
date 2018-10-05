@@ -1,0 +1,63 @@
+h1{
+    text-indent:50px;/*prorpriedade usada para especificar o recuo,um parágrafo */
+	letter-spacing:4px;/*para dar espaço entre as letras,se o valor for positivo une as letras se negativo as separa */
+	word-spacing:10px;/*para dar espaço entre as palavras */
+	border:6px dotted #ECFE5D;
+	border-radius:45 px;
+	background-clip:border-box;/* a cor fica dentro da borda*/
+	background-color:#731DB1;
+	}
+#a{
+   border-left:6px #FFC352;/* para inserir borda do lado esquerdo*/
+   background-color:#6CABFF;
+}
+#b{
+	
+border-bottom:6px dotted #2864B2;/*para inserir borda na parte inferior*/	
+
+}
+#c{
+	
+	border-right:6px dashed #53FFDA;/*para inserir borda do lado direito */
+	background-color:#FF8053;
+}
+
+#d{
+ border-top:6px double #B23F17;
+ border-color:#6D93FF;
+ border-style:solid;
+	
+}
+
+#e{
+	border-bottom:8px  ridge #B28C29;
+	border-left:8px groove #3B5AB2;
+	border-right:8px inset #172C65;
+	border-top:8px inset #6E93FE;
+	background-color:#B2913B;
+}
+	/* dotted - borda pontilhada:
+	solid - borda com linha sólida:
+	dashed - bordas tracejadas:
+	double - bordas com linhas duplas:
+	groove - borda com estilo 3D:
+	ridge - bordas com efeitos 3D coma as cores ao contrário:
+	inset - efeito 3D de baixo relevo:
+	outset - efeito 3D de alto relevo:
+	none - sem borda */
+#i{
+	border-bottom:8px  ridge #B28C29;
+	border-left:8px groove #3B5AB2;
+	border-right:8px inset #172C65;
+	border-top:8px inset #6E93FE;
+	background-color:#B2913B;
+	border-radius:45px;
+	}
+h2{
+	border:6px dotted #731DB1;
+	border-radius:45px;
+	background-color:#EEFF66;
+	background-clip:padding-box;/*a cor fica dentro da borda*/
+	
+	
+}
