@@ -1,0 +1,39 @@
+table,tr,td,th{
+border-collapse:collapse;
+border:4px solid #6153FF;
+font-family:"Jokerman Regular";
+font-size:20px;
+width:370px;
+height:50px;
+text-align:center;
+text-shadow:0px 10px 20px #FFD800;
+vertical-align:middle;
+box-shadow:10px 10px 10px #79FFE7;
+padding:10px 20px ;
+table-layout:fixed;
+}
+#a{
+ background-image:url("peri.jpg");	
+ margin=50px;
+}
+
+#b{
+	background-image:url("pe.jpg");
+	margin=50px;
+}
+#c{
+	background-image:url("perite.jpg");
+	margin=50px;
+	
+}
+#d{
+	background-image:url("p.gif");
+	margin=50px;
+	
+}/*
+tr:nth-child(even){
+	background-color:#FF9E79;
+}
+tr:hover{/*quando passar o mause muda de cor 
+	background-image:url("ar.gif");
+}*/
